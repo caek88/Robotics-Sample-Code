@@ -1,3 +1,5 @@
+#include "robot-config.h"//include the configuration
+          
 //This program is for making the robot move straight with a two motor 
 using namespace vex;//Reference the vex class
 
@@ -8,9 +10,9 @@ using namespace vex;//Reference the vex class
 //motor mtr = motor(PORT1, false, gearSetting::ratio36_1); ratio36_1 is red, ratio18_1 is green, 
 int main(){
     //Make the robot drive straight for 1 second (1000 milliseconds)
-    mtrLeft.spin(directionType::fwd, 100, percentUnits::pct);
-    mtrRight.spin(directionType::fwd, 100, percentUnits::pct);//Set each motor to 100% power forwards
+    MtrLeft.spin(directionType::fwd, 100, percentUnits::pct);
+    MtrRight.spin(directionType::fwd, 100, percentUnits::pct);//Set each motor to 100% power forwards
     task::sleep(1000);//Pause for 1 second (1000 milliseconds)
-    mtrLeft.stop();
-    mtrRight.stop();//Stop both motors (They are still spinning after task::sleep(1000);)
+    MtrLeft.stop();
+    MtrRight.stop();//Stop both motors (They are still spinning after task::sleep(1000);)
 }
