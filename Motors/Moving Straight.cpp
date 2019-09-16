@@ -10,8 +10,8 @@ using namespace vex;//Reference the vex class
 //motor mtr = motor(PORT1, false, gearSetting::ratio36_1); ratio36_1 is red, ratio18_1 is green, 
 int main(){
     //Make the robot drive straight for 1 second (1000 milliseconds)
-    MtrLeft.spin(directionType::fwd, 100, percentUnits::pct);
-    MtrRight.spin(directionType::fwd, 100, percentUnits::pct);//Set each motor to 100% power forwards
+    MtrLeft.spin(directionType::fwd, 100, velocityUnits::pct);
+    MtrRight.spin(directionType::fwd, 100, velocityUnits::pct);//Set each motor to 100% power forwards
     task::sleep(1000);//Pause for 1 second (1000 milliseconds)
     MtrLeft.stop();
     MtrRight.stop();//Stop both motors (They are still spinning after task::sleep(1000);)
