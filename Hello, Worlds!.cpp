@@ -1,5 +1,5 @@
 //Vex Coding Studio is programmed in C++ and has three options for coding: Block style, C++, and C++ Pro.
-//These sample programs will be used in the C++ Pro Mode
+//These sample programs will work in Vex C++ or Vex C++ Pro
 //C++ is very similar to Java in that it uses the same syntax. 
 //Before learning to program the robots, check out this website for information about coding in C++: 
 //https://www.tutorialspoint.com/cplusplus/index.htm#
