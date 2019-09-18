@@ -16,3 +16,4 @@ vex::motor motorObject = vex::motor(vex::PORT1);//This defines a motor called mo
 
 vex::motor motorObject = vex::motor(vex::PORT1, true); //This defines a motor called motorObject on port 1 with its direction reversed set to true
 vex::motor motorObject = vex::motor(vex::PORT1, vex::gearSetting::ratio36_1, true);//This defines a motor called motorObject on port 1 with the green gear pack and it's direction reversed
+//The other gear ratios are ratio18_1 and ratio6_1
