@@ -1,5 +1,9 @@
 //See the declaring motors.cpp file for information about object oriented programming
 
 //To declare a potentiometer: 
+pot potentiometerName = pot(Brain.ThreeWirePort.A);//Declares a potentiometer object on port A
 
-pot potentiometerName = pot(
+//To declare a bumper switch:
+bumper bumperName = bumper(Brain.ThreeWirePort.A);//Declares a bumper switch object on port A
+
+//
