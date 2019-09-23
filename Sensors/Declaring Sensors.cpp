@@ -6,4 +6,5 @@ pot potentiometerName = pot(Brain.ThreeWirePort.A);//Declares a potentiometer ob
 //To declare a bumper switch:
 bumper bumperName = bumper(Brain.ThreeWirePort.A);//Declares a bumper switch object on port A
 
-//
+//To declare a limti switch:
+limit limitName = limit(Brain.ThreeWirePort.A); //Declare a limit switch object on port A
