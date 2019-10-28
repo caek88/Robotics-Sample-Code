@@ -1,4 +1,5 @@
 //This program is a sample program for navigating a maze using the startRotateTo() command
+//This is not the most accurate
 using namespace vex;//Reference the vex class
 brain Brain;//Define brain and motors
 motor mtrLeft = motor(PORT1, false);
